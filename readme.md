@@ -28,9 +28,9 @@ las modificaciones habían ido por caminos distintos. Por eso al intentar mergea
 
 10.  git branch -D title
 
-11. git branch title 
-    git checkout master
-    git merge title
+11. git branch title /
+    git checkout master/
+    git merge title/
 
 12. git checkout c424c13
 
