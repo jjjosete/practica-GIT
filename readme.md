@@ -28,10 +28,10 @@ las modificaciones habían ido por caminos distintos. Por eso al intentar mergea
 
 10.  git branch -D title
 
-11.  git merge title
+11. git branch title 
+    git checkout master
+    git merge title
 
-12. git reset --hard <sha1 del commit del merge>
+12. git checkout c424c13
 
-13. git checkout c424c13
-
-14. git checkout 2ac3ae4
+13. git checkout 2ac3ae4
